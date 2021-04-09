@@ -4,6 +4,7 @@ class Mythread1 implements Runnable{
         System.out.println(Thread.currentThread());
         System.out.println(Thread.currentThread().getPriority());
     }
+
 }
 public class SettingPriorityAndNameOfTheThread {
     public static void main(String[] args){

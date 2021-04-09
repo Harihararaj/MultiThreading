@@ -10,6 +10,7 @@ class MyThread implements Runnable{
                 e.printStackTrace();
             }
         }
+
     }
 }
 public class UsingJoinAndSleepMethods {

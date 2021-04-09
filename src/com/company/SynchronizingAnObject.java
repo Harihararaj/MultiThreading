@@ -6,6 +6,7 @@ class Account{
         this.name=name;
         this.balance=balance;
     }
+
     public synchronized void withdraw(int amountToBeDebited){
         if(amountToBeDebited>this.balance){
             try {

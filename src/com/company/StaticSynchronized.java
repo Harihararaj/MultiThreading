@@ -11,6 +11,7 @@ class Display1{
             System.out.println(name);
         }
     }
+
 }
 class MyThread3 implements Runnable{
     Display1 objectToDisplay;
