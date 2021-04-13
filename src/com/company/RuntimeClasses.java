@@ -6,6 +6,7 @@ public class RuntimeClasses {
     public static void main(String[] args){
         try {
             Runtime.getRuntime().exec("notepad");
+            Runtime.getRuntime().exec("");
         } catch (IOException e) {
             e.printStackTrace();
         }
